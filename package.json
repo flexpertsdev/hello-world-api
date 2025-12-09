@@ -1,0 +1,17 @@
+{
+  "name": "hello-world-vercel",
+  "version": "1.0.0",
+  "description": "A simple serverless API that returns a greeting.",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "vercel": "latest"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
